@@ -177,26 +177,40 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AdminViewModel.cs" />
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\AlexKlee.jpg" />
+    <Content Include="Content\assets\AustinWallace.jpg" />
     <Content Include="Content\assets\ChiefsOpeningDay.jpg" />
+    <Content Include="Content\assets\ConnorDunn.jpg" />
     <Content Include="Content\assets\DungeonProgram.png" />
+    <Content Include="Content\assets\EnriqueGarcia.jpg" />
     <Content Include="Content\assets\favicon.ico" />
     <Content Include="Content\assets\Fed1resize.jpeg" />
     <Content Include="Content\assets\Fed1Screenshot.jpeg" />
-    <Content Include="Content\assets\IanMcClaflinProfile.jfif" />
+    <Content Include="Content\assets\IanMcClaflin.jpg" />
     <Content Include="Content\assets\IcePorchNewer.jpg" />
-    <Content Include="Content\assets\JazRizoProfile.jfif" />
+    <Content Include="Content\assets\JazmineRizo.jpg" />
+    <Content Include="Content\assets\JustinPeacock.jpg" />
+    <Content Include="Content\assets\KaylaNguyen.jpg" />
     <Content Include="Content\assets\LinkedInProfile.png" />
-    <Content Include="Content\assets\MattRobertsProfile.jfif" />
+    <Content Include="Content\assets\MattRoberts.jpg" />
+    <Content Include="Content\assets\MichaelRedifer.jpg" />
     <Content Include="Content\assets\NiceBike.PNG" />
     <Content Include="Content\assets\OrangeLamp.JPG" />
     <Content Include="Content\assets\PinkRecord.JPG" />
     <Content Include="Content\assets\PlazaLights1.jpg" />
+    <Content Include="Content\assets\ReactToDo.jpg" />
+    <Content Include="Content\assets\RomeoBagunu.jpg" />
+    <Content Include="Content\assets\SeanMcKinney.jpg" />
+    <Content Include="Content\assets\StoreFrontBetter.jpg" />
+    <Content Include="Content\assets\ToDoAPIPostman.png" />
+    <Content Include="Content\assets\ZakarySisler.jpg" />
     <Content Include="Content\css\styles.css" />
     <Content Include="Content\js\scripts.js" />
     <Content Include="Content\OriginalContent\bootstrap-theme.css" />
@@ -234,6 +248,7 @@
     <Content Include="_archive\Projects.html" />
     <Content Include="_archive\Resume.html" />
     <Content Include="Content\assets\ResumeBJM-Revised3-1-22.docx" />
+    <Content Include="configs\AppSecretKeys.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -261,7 +276,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -300,6 +314,9 @@
     <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="_archive\assets\ResumeBJM-Revised3-1-22-converted.pdf" />
+    <Content Include="Views\Home\Contact - Copy.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\EmailConfirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

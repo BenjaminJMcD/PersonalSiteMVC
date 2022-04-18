@@ -1,0 +1,52 @@
+﻿@model PersonalSite.MVC.UI.Models.ContactViewModel
+
+@{
+    ViewBag.Title = "EmailConfirmation";
+}
+
+<div class="block" style="background-color:#F4623A">
+    <p>
+        <br /><br /><br />
+    </p>
+</div>
+
+<h2>EmailConfirmation</h2>
+
+<div>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+
+    </dl>
+</div>
+
